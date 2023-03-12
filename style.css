@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(202, 236, 225);
+}
+main {
+    padding: 0 20%;
+    
+}
+
+img {
+    display: block;
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+.picture {
+    display: flex;
+    overflow: hidden;
+    height: 0em;
+    justify-content: center; 
+}
+
+.accordeon:hover .picture {
+    height: 15rem;   
+    transition: height 1s;
+    cursor: pointer;
+}
